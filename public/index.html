@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/app/css/bootstrap.css" />
+    <link rel="stylesheet" href="/app/css/main.css" />
+  </head>
+  <body>
+    <div id="fondo" class="container container-fluid main-bg text-center text-white">
+      <div class="d-flex w-100 h-100 mx-auto flex-column">
+        <header class="mb-auto mt-1"></header>
+
+        <main role="main" class="inner m-3 p-2 oscurecer">
+          <div
+            class="d-flex justify-content-center flex-column container-fluid"
+          >
+            <div class="pt-5">
+              <h1>
+                AM
+                <svg id="corazon" class="corazon-normal" viewBox="0 0 32 29.6">
+                  <path
+                    d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+                  />
+                </svg>
+                R
+              </h1>
+            </div>
+            <div class="mt-4">
+              <label class="switch">
+                <input
+                  id="switch"
+                  type="checkbox"
+                  onclick="mi_principessa(true)"
+                />
+                <div class="slider round"></div>
+              </label>
+            </div>
+            <div class="m-1">
+              <h3>
+                <span id="estado">Antes de conocer a</span> mi principessa
+              </h3>
+            </div>
+          </div>
+        </main>
+        <footer class="mt-auto"></footer>
+        <audio autoplay loop style="display: none">
+          <source src="/app/media/media-file.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <script src="/app/js/main.js"></script>
+  </body>
+</html>
